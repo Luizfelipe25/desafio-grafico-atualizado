@@ -7,7 +7,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Boilerplate</title>
+        <title>Chart Challenge</title>
         <meta name="description" content="Chart Challenge update" />
       </Head>
       <GlobalStyles />
