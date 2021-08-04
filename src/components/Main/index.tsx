@@ -1,19 +1,19 @@
+import ChartConfigure from 'components/Chart'
 import * as S from './styles'
-import { useEffect, useState } from 'react'
-
-import HighchartsReact from 'highcharts-react-official'
-import Highcharts from 'highcharts'
-import options from 'components/Chart'
-
-function Data() {
-  const [list, setList] = useState([])
-}
-
 const Main = () => (
   <S.Wrapper>
     <S.Title>React Avançado</S.Title>
     <S.Description>boilerplate</S.Description>
-    <HighchartsReact highcharts={Highcharts} options={options} />
+    <select id="filter">
+      <option selected value="AllValues">
+        Desde o Início
+      </option>
+      <option value="LastM">Ultimo Mês</option>
+      <option value="Last3M">Ultimos 3 meses</option>
+      <option value="LastY">Ultimo ano</option>
+      <option value="Last2Y">Ultimos 2 anos</option>
+    </select>
+    <ChartConfigure />
   </S.Wrapper>
 )
 
