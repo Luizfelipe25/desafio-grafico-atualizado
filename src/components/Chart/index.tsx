@@ -3,7 +3,6 @@ import HighchartsReact from 'highcharts-react-official'
 import Highcharts from 'highcharts'
 
 import { getList } from 'Services'
-import { fsyncSync } from 'fs'
 
 type ValuesToFilter = {
   value: string
@@ -25,19 +24,14 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
   }, [])
 
   if (value === '1') {
-    const data = list.map((item) => item[0])
-    const valueInReal = list.map((item) => item[1])
-    const FilteredValue = data.filter(function (data) {
-      const mesAnterior = new Date('12-01-2020').getTime()
-      return data < mesAnterior
-    })
-
+    const limit = new Date('2020-01-01')
+    const filtered = list.filter((dates) => dates[0] > limit)
     const options = {
       chart: {
         type: 'area'
       },
       title: {
-        text: 'Histórico de investimentos'
+        text: ''
       },
       xAxis: {
         allowDecimals: false,
@@ -51,37 +45,122 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
       tooltip: {
         pointFormat: '{series.name}<b> {point.y:,.0f}'
       },
-      plotOptions: {
-        area: {
-          pointStart: FilteredValue,
-          marker: {
-            enabled: false,
-            symbol: 'circle',
-            radius: 2,
-            states: {
-              hover: {
-                enabled: true
-              }
-            }
-          }
-        }
-      },
       series: [
         {
           name: 'Valor Gasto <b>R$',
+          data: filtered,
           threshold: null
         }
       ]
     }
     return <HighchartsReact highcharts={Highcharts} options={options} />
   }
-  //CRIAR UM BOTÃO PARA ALTERAR O ESTADO DO COMPONENTE E MUDAR O GRAFICO.
+
+  if (value === '2') {
+    const limit = new Date('2019-11-01')
+    const filtered = list.filter((dates) => dates[0] > limit)
+    const options = {
+      chart: {
+        type: 'area'
+      },
+      title: {
+        text: ''
+      },
+      xAxis: {
+        allowDecimals: false,
+        type: 'datetime'
+      },
+      yAxis: {
+        title: {
+          text: 'Valor em Reais'
+        }
+      },
+      tooltip: {
+        pointFormat: '{series.name}<b> {point.y:,.0f}'
+      },
+      series: [
+        {
+          name: 'Valor Gasto <b>R$',
+          data: filtered,
+          threshold: null
+        }
+      ]
+    }
+    return <HighchartsReact highcharts={Highcharts} options={options} />
+  }
+
+  if (value === '3') {
+    const limit = new Date('2020-01-01')
+    const filtered = list.filter((dates) => dates[0] > limit)
+    const options = {
+      chart: {
+        type: 'area'
+      },
+      title: {
+        text: ''
+      },
+      xAxis: {
+        allowDecimals: false,
+        type: 'datetime'
+      },
+      yAxis: {
+        title: {
+          text: 'Valor em Reais'
+        }
+      },
+      tooltip: {
+        pointFormat: '{series.name}<b> {point.y:,.0f}'
+      },
+      series: [
+        {
+          name: 'Valor Gasto <b>R$',
+          data: filtered,
+          threshold: null
+        }
+      ]
+    }
+    return <HighchartsReact highcharts={Highcharts} options={options} />
+  }
+
+  if (value === '4') {
+    const limit = new Date('2019-01-01')
+    const filtered = list.filter((dates) => dates[0] > limit)
+    const options = {
+      chart: {
+        type: 'area'
+      },
+      title: {
+        text: ''
+      },
+      xAxis: {
+        allowDecimals: false,
+        type: 'datetime'
+      },
+      yAxis: {
+        title: {
+          text: 'Valor em Reais'
+        }
+      },
+      tooltip: {
+        pointFormat: '{series.name}<b> {point.y:,.0f}'
+      },
+      series: [
+        {
+          name: 'Valor Gasto <b>R$',
+          data: filtered,
+          threshold: null
+        }
+      ]
+    }
+    return <HighchartsReact highcharts={Highcharts} options={options} />
+  }
+
   const options = {
     chart: {
       type: 'area'
     },
     title: {
-      text: 'Histórico de investimentos'
+      text: ''
     },
     xAxis: {
       allowDecimals: false,
