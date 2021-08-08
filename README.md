@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This is my first project.
 
-You can visit in: graficoderendimentos.vercel.app
+You can visit in: https://graficoderendimentos.vercel.app/
 ## Getting Started
 
 First, run the development server:
