@@ -32,7 +32,7 @@ export const Select = styled.h2`
     background: #eeeeee;
     background-image: none;
     flex: 1;
-    height: 3vh;
+    height: 4vh;
     padding: 0 0.5em;
     color: #06092b;
     cursor: pointer;
