@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.main`
   background-color: #fff;
-  color: #06092b;
+  color: #009688;
   width: 100%;
   height: 100%;
 `
@@ -51,7 +51,9 @@ export const Chart = styled.section`
   max-height: 50%;
 `
 
-export const Period = styled.span`
-  font-size: var(--small);
+export const Period = styled.div`
+  font-size: 2rem;
   margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 `

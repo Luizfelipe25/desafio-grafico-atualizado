@@ -31,7 +31,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: 'Gráfico de Rendimentos'
+        text: 'Seus Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -45,6 +45,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
       tooltip: {
         pointFormat: '{series.name}<b> {point.y:,.0f}'
       },
+      colors: [' #83d0c9 '],
       series: [
         {
           name: 'Valor Gasto <b>R$',
@@ -64,7 +65,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: 'Gráfico de Rendimentos'
+        text: 'Seus Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -78,6 +79,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
       tooltip: {
         pointFormat: '{series.name}<b> {point.y:,.0f}'
       },
+      colors: [' #83d0c9 '],
       series: [
         {
           name: 'Valor Gasto <b>R$',
@@ -97,7 +99,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: 'Gráfico de Rendimentos'
+        text: 'Seus Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -111,6 +113,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
       tooltip: {
         pointFormat: '{series.name}<b> {point.y:,.0f}'
       },
+      colors: [' #83d0c9 '],
       series: [
         {
           name: 'Valor Gasto <b>R$',
@@ -130,7 +133,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: 'Gráfico de Rendimentos'
+        text: 'Seus Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -144,6 +147,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
       tooltip: {
         pointFormat: '{series.name}<b> {point.y:,.0f}'
       },
+      colors: [' #83d0c9 '],
       series: [
         {
           name: 'Valor Gasto <b>R$',
@@ -160,7 +164,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
       type: 'area'
     },
     title: {
-      text: 'Gráfico de Rendimentos'
+      text: 'Seus Rendimentos'
     },
     xAxis: {
       allowDecimals: false,
@@ -174,6 +178,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
     tooltip: {
       pointFormat: '{series.name}<b> {point.y:,.0f}'
     },
+    colors: [' #83d0c9 '],
     series: [
       {
         name: 'Valor Gasto <b>R$',
