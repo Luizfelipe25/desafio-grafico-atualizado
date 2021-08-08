@@ -31,7 +31,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: ''
+        text: 'Gráfico de Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -64,7 +64,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: ''
+        text: 'Gráfico de Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -97,7 +97,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: ''
+        text: 'Gráfico de Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -130,7 +130,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
         type: 'area'
       },
       title: {
-        text: ''
+        text: 'Gráfico de Rendimentos'
       },
       xAxis: {
         allowDecimals: false,
@@ -160,7 +160,7 @@ const ChartConfigure = ({ value }: ValuesToFilter) => {
       type: 'area'
     },
     title: {
-      text: ''
+      text: 'Gráfico de Rendimentos'
     },
     xAxis: {
       allowDecimals: false,

@@ -14,8 +14,9 @@ export const Title = styled.h1`
   text-align: center;
 `
 
-export const Description = styled.h2`
-  margin-bottom: 50px;
+export const Select = styled.h2`
+  margin-top: 15vh;
+  margin-bottom: 3vh;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -31,6 +32,7 @@ export const Description = styled.h2`
     background: #eeeeee;
     background-image: none;
     flex: 1;
+    height: 3vh;
     padding: 0 0.5em;
     color: #06092b;
     cursor: pointer;
@@ -47,4 +49,9 @@ export const Chart = styled.section`
   text-align: center;
   align-items: center;
   max-height: 50%;
+`
+
+export const Period = styled.span`
+  font-size: var(--small);
+  margin-right: 10px;
 `

@@ -11,9 +11,8 @@ const Main = () => {
 
   return (
     <S.Wrapper>
-      <S.Title>Gráfico de Rendimentos</S.Title>
-      <S.Description>
-        boilerplate
+      <S.Select>
+        <S.Period>Você está vendo o período:</S.Period>
         <select id="filter" onChange={handleSelect}>
           <option selected value="0">
             Desde o Início
@@ -23,7 +22,7 @@ const Main = () => {
           <option value="3">Ultimo ano</option>
           <option value="4">Ultimos 2 anos</option>
         </select>
-      </S.Description>
+      </S.Select>
       <S.Chart>
         <ChartConfigure value={selectedValue} />
       </S.Chart>
