@@ -1,14 +1,25 @@
+[EN-US]
+
 This is a refactor of my first project.
+
 You can visit in: https://graficoderendimentos.vercel.app/
 
 You can contribute as you like if you feel it is necessary, just clone the repository.
 
-[PR-BR] Essa é uma refatoração de um dos meus primeiros projetos.
-        Você pode encontrar em https://graficoderendimentos.vercel.app/
-        Você pode contribuir como quiser se achar necessario, basta clonar o repositório para sua maquina.
+[PT-BR] 
+
+Essa é uma refatoração de um dos meus primeiros projetos.
+
+Você pode encontrar em https://graficoderendimentos.vercel.app/
+
+Você pode contribuir como quiser se achar necessario, basta clonar o repositório para sua maquina.
+
+
+
+## Getting Started
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-## Getting Started
+
 
 First, run the development server:
 
