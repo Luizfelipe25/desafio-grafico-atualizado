@@ -1,6 +1,6 @@
 [EN-US]
 
-This is a refactor of my first project.
+This is a refactor of my first small project.
 
 You can visit in: https://graficoderendimentos.vercel.app/
 
@@ -8,7 +8,7 @@ You can contribute as you like if you feel it is necessary, just clone the repos
 
 [PT-BR] 
 
-Essa é uma refatoração de um dos meus primeiros projetos.
+Essa é uma refatoração de um dos meus primeiros pequenos projetos.
 
 Você pode encontrar em https://graficoderendimentos.vercel.app/
 
