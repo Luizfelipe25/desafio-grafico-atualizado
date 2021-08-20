@@ -2,7 +2,7 @@
 
 This is a refactor of my first small project.
 
-You can visit in: https://graficoderendimentos.vercel.app/
+You can visit in: https://graficorendimentos-luizfelipe.vercel.app/
 
 You can contribute as you like if you feel it is necessary, just clone the repository.
 
@@ -10,7 +10,7 @@ You can contribute as you like if you feel it is necessary, just clone the repos
 
 Essa é uma refatoração de um dos meus primeiros pequenos projetos.
 
-Você pode encontrar em https://graficoderendimentos.vercel.app/
+Você pode encontrar em https://graficorendimentos-luizfelipe.vercel.app/
 
 Você pode contribuir como quiser se achar necessario, basta clonar o repositório para sua maquina.
 
